@@ -178,16 +178,39 @@ img {
 .section-3 {
     margin: 0;
     background: url(./assets/original.jpeg);
-    text-align: center;
     padding: 50px;
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: center center;
     text-align: left;
     height: 400px;
+    text-align: left;
 
 }
 
+.btn-sec3{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.body-sec3{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.div-sec-3{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 100%;
+}
+
+.img-sec3{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: white;
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -208,8 +231,7 @@ body {
     background-color: #333;
     padding: 20px;
     border-radius: 8px;
-    /* width: 300px; */
-    /* or any other width */
+
 }
 
 .plan-header {
@@ -274,7 +296,6 @@ body {
 }
 
 nav {
-    /* Styling for navigation bar */
 }
 
 header {
@@ -297,8 +318,9 @@ header {
     color: #fff;
     border-radius: 8px;
     padding: 20px;
-    width: 300px; /* Adjust width as needed */
+    width: 300px; 
     margin: 20px;
+    margin-top: 40px;
     text-align: center;
     font-family: Arial, sans-serif;
   }
@@ -331,8 +353,8 @@ header {
     padding: 10px 20px;
     font-size: 1.2em;
     cursor: pointer;
-    width: 100%; /* Make button full width */
-    box-sizing: border-box; /* Ensure padding doesn't add to the width */
+    width: 100%; 
+    box-sizing: border-box; 
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
   }
@@ -353,10 +375,10 @@ header {
   }
   
   .plan-logo {
-    display: block; /* Adjust as needed */
-    margin-top: 5px; /* Space between text and logo */
-    height: 30px; /* Your logo height here */
-    width: auto; /* Keep the aspect ratio */
+    display: block; 
+    margin-top: 5px;
+    height: 30px; 
+    width: auto;
   }
   
   .switch {
@@ -408,17 +430,36 @@ header {
     transform: translateX(26px);
   }
   
-  /* Added styles for your text labels */
-  .toggle-label {
-    user-select: none; /* to prevent text selection */
+
+  .section4{
+    background-color: white;
+    display: flex  ;
+    height: 200px;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
+  li{
+    color: black;
+    list-style-type: none;
   }
-  
-  .slider.round:before {
-    border-radius: 50%;
+  h4{
+    color: gray;
+    padding-left: 0px;
   }
-  
+ 
+  .img-icon{
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+  }
+
+  .icons{
+    background-color: white;
+    height: 300px;
+    width:100%;
+    padding-left: 100px;
+
+  }
